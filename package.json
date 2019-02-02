@@ -1,0 +1,34 @@
+{
+  "name": "chillipress-sandbox",
+  "description": "The startpoint for Wordpress project build on ChilliPress",
+  "author": "Pavel Kovář <pavel@pavelkovar.cz> (https://www.pavelkovar.cz/)",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.6",
+    "bootstrap": "^4.2.1",
+    "jquery.mmenu": "^7.2.2",
+    "kovarp-utilities": "^1.0.0",
+    "popper.js": "^1.14.7",
+    "slick-carousel": "^1.8.1",
+    "svg4everybody": "^2.1.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "grunt": "^1.0.2",
+    "grunt-atomizer": "^3.1.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-open": "^0.2.3",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^2.1.0",
+    "grunt-shell": "^3.0.1",
+    "grunt-stylelint": "^0.10.1",
+    "jit-grunt": "^0.10.0",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-object-fit-images": "^1.1.2",
+    "stylelint": "^9.8.0",
+    "stylelint-config-rational-order": "0.0.2",
+    "time-grunt": "^1.4.0"
+  }
+}

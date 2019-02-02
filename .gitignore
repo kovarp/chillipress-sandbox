@@ -1,0 +1,29 @@
+### IDE
+/.idea
+
+### Development
+/deployment.*.*
+!/deployment.example.php
+
+### Packages
+/vendor/
+/node_modules
+/www/content/mu-plugins/*
+!/www/content/mu-plugins/advanced-custom-fields-pro/
+!/www/content/mu-plugins/mu-autoloader.php
+
+### Wordpress
+/www/wp/
+/www/content/plugins/
+#/www/content/uploads/
+/www/content/cache/
+
+### Theme
+/www/content/themes/chilli-codes/assets/js/app.js
+/www/content/themes/chilli-codes/assets/js/script.min.js
+/www/content/themes/chilli-codes/assets/js/vendor.js
+/www/content/themes/chilli-codes/assets/css/*.css
+/www/content/themes/chilli-codes/assets/css/*.css.map
+
+### Global
+!.gitkeep

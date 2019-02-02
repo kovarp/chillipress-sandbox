@@ -1,0 +1,17 @@
+includes:
+	- vendor/phpstan/phpstan-strict-rules/rules.neon
+
+parameters:
+	autoload_directories:
+		- %rootDir%/../../../www/wp
+
+	ignoreErrors:
+		- '#Function acf_[a-zA-Z0-9\\_]* not found#'
+		- '#Function get_[a-zA-Z0-9\\_]* not found#'
+		- '#Function has_[a-zA-Z0-9\\_]* not found#'
+		- '#Function add_action not found#'
+		- '#Function register_post_type not found#'
+		- '#Function show_admin_bar not found#'
+		- '#Function strip_shortcodes not found#'
+		- '#Function apply_filters not found#'
+		- '#Function wp_trim_words not found#'

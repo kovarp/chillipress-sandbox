@@ -1,0 +1,21 @@
+// Input placeholder style
+//
+// Custom styles for input placeholder text (custom color, font weight etc.)
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+}

@@ -1,0 +1,15 @@
+database:
+	prefix: chp_
+
+services:
+
+# Generate salts via https://api.wordpress.org/secret-key/1.1/salt/
+salt:
+	AUTH_KEY: 'MJop.c(yc^(+d{u~LW$p5<WRBn=/- aa^JANMC{-F>{QP%#A8oXkIA2+3_ N!M+S'
+	SECURE_AUTH_KEY: '`TiD2!S=Q,L+2%%AM.8{+`D]pcb~vG4}:M[xMk38,Wh202CaKEzW1ea|r7`L}|ed'
+	LOGGED_IN_KEY: '=~$)!04 5<`/LG:Lg<b-X.W7*:_ MfyegeM`?4u$spGUn3luqg2QqlAP<^-D_QVA'
+	NONCE_KEY: 'rT,9bAf^&M9Ts4}[vKZ|&J<0w=@I=NkWE>n|Yu~f7p-!5gD=Z_`,p~Cs4R)7&uTx'
+	AUTH_SALT: 'FYi6@x.*U!e?8c=IPxyU[e~kL_8Q,DqCtziQeQ^-!=}R{/h%5Q!JUc.|hr4c[IGL'
+	SECURE_AUTH_SALT: 'G+UN)g]%uE0 Uc@MbL_i7RK+2-[5n~AF-;2v8>_lMxv~d(bXJlio;xDDUTe+WCjC'
+	LOGGED_IN_SALT: '89?/#4;^TFBA~8O!57|~,A%BNB.6]9}n2#abIReR.!Yfj yPW@# rUI-;p10-Mp|'
+	NONCE_SALT: '<f()P!AXQg-@(Ur;N9Wu`_Npl3G}Ra~q5P1.Qrzot(BW`[+!zqakg9um%:3~uS=R'

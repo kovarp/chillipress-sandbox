@@ -1,0 +1,7 @@
+// Grid columns
+
+$grid-columns: 15;
+$grid-gutter-width: 20px;
+
+// Put your's variables before original Bootstrap variables file
+@import '../../../../../../../node_modules/bootstrap/scss/variables';

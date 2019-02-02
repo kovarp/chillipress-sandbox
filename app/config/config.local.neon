@@ -1,0 +1,9 @@
+env: DEV
+home: 'http://localhost:8080/'
+siteurl: 'http://localhost:8080/wp/'
+
+database:
+	host: mysql
+	dbname: chillipress
+	user: chillipress
+	password: 123
