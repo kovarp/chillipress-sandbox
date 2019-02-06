@@ -17,12 +17,12 @@
   ],
   "config": {
     "platform": {
-      "php": "7.1.0"
+      "php": "7.3.0"
     },
     "process-timeout": 2000
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.3",
     "dg/ftp-deployment": "^3.1",
     "dg/mysql-dump": "^1.5",
     "kovarp/chilliadmin": "^1.0",
