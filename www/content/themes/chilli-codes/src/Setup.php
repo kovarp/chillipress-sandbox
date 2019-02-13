@@ -11,14 +11,10 @@ class Setup {
 	}
 
 	public function loadStyles() {
-		$theme = wp_get_theme();
-
-		wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/assets/css/style.min.css', array(), $theme->get( 'Version' ) );
+		wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/assets/css/style.min.css', array(), filemtime(get_stylesheet_directory() . '/assets/css/style.min.css') );
 	}
 
 	public function loadScripts() {
-		$theme = wp_get_theme();
-
 		// Remove wp-embed script
 		wp_deregister_script( 'wp-embed' );
 
@@ -27,7 +23,7 @@ class Setup {
 		wp_register_script( 'jquery', get_template_directory_uri() . '/assets/js/vendor/jquery-2.2.4.min.js', array(), '2.2.4', true );
 		wp_enqueue_script( 'jquery' );
 
-		wp_enqueue_script( 'theme-scripts', get_stylesheet_directory_uri() . '/assets/js/script.min.js', array('jquery'), $theme->get( 'Version' ), true );
+		wp_enqueue_script( 'theme-scripts', get_stylesheet_directory_uri() . '/assets/js/script.min.js', array('jquery'), filemtime(get_stylesheet_directory() . '/assets/js/script.min.js'), true );
 	}
 
 	public function themeSupport() {
