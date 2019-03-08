@@ -1,6 +1,5 @@
 /* Project configuration */
 var themePath = 'www/content/themes/chilli-codes';
-var liveURL = 'https://www.pavelkovar.cz/';
 
 module.exports = function (grunt) {
 	require('jit-grunt')(grunt);
@@ -162,6 +161,6 @@ module.exports = function (grunt) {
 	grunt.registerTask('compile_css', ['atomizer', 'sass', 'stylelint', 'postcss', 'cssmin']);
 	grunt.registerTask('compile_js', ['concat:vendor', 'concat:app', 'uglify:default']);
 	grunt.registerTask('compile', ['compile_css', 'compile_js']);
-	grunt.registerTask('deployDev', ['compile', 'shell:deployDev', 'open:devURL']);
-	grunt.registerTask('deployLive', ['compile', 'shell:deployLive', 'open:liveURL']);
+	grunt.registerTask('deployDev', ['compile', 'shell:deployDev']);
+	grunt.registerTask('deployLive', ['compile', 'shell:deployLive']);
 };
