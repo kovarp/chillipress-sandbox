@@ -58,7 +58,8 @@
         "wpackagist-plugin/wordpress-seo",
         "wpackagist-plugin/wps-hide-login",
         "wpackagist-plugin/wp-super-cache",
-        "wpackagist-plugin/advanced-custom-fields"
+        "wpackagist-plugin/advanced-custom-fields",
+        "wpackagist-plugin/classic-editor"
       ],
       "www/content/plugins/{$name}/": [
         "type:wordpress-plugin"
